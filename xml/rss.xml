@@ -1,7 +1,17 @@
 <rss version="2.0">
     <channel>
-        <title>Portfolio 96/20</title>
-        <link>https://mihailoilic.github.io/mihailo/</link>
-        <description>Janko Stojkovic - Moj portfolio</description>
+        <title>PAAKAA - home</title>
+        <link>https://paka3012.github.io/Perfume-shop/</link>
+        <description>Welcome to the best perfume store</description>
+        <item>
+            <title>Male pefume</title>
+            <link>https://paka3012.github.io/Perfume-shop/pages/male.html</link>
+            <description>This is our male colection</description>
+        </item>
+        <item>
+            <title>Female pefume</title>
+            <link>https://paka3012.github.io/Perfume-shop/pages/female.html</link>
+            <description>This is our female colection</description>
+        </item>
     </channel>
 </rss>
