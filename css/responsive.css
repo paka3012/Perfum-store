@@ -1,0 +1,85 @@
+@media only screen and (max-width:1100px){
+    .offer-sec .offer .offer-txt{
+        padding: 20px 10px;
+    }
+    .offer-txt .e{
+        display: none;
+    }
+}
+@media only screen and (max-width:768px){
+    .offer-txt .btn{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .offer-pic{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .offer .row{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .offer-txt .e{
+        display: block;
+    }
+    footer .row{
+        text-align: center;
+    }
+    .card-img-top{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .card .card-body{
+        text-align: center;
+    }
+    .card .btn{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:460px){
+    .main-block h1{
+        width: 90%;
+    }
+    .navbar .navbar-brand{
+        width: 50%;
+    }
+    .male .navbar .navbar-brand{
+        width: 50%;
+    }
+    .offer .offer-txt h5{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .offer .offer-txt p{
+        font-size: 13px;
+    }
+
+    .offer-txt .btn{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .card .btn{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:370px){
+    .header-title h1{
+        font-size: 40px;
+    }
+    footer ul li{
+        font-size: 13px;
+    }
+    .logo{
+        width: 70%;
+    }
+    .card-img-top{
+        width: 100%; 
+    }
+    .carousel-item p{
+        font-size: 30px;
+    }
+}

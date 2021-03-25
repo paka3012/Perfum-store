@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Della Respira', serif;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background: linear-gradient(36deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.4) 100%),
+    url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-attachment: fixed;
+    box-shadow: inset 210px 114px 1500px rgb(0 0 0);
+}
+.male{
+    background: #f1f1f1;
+    box-shadow: none;
+}
+body{
+    background-color: black;
+}  
+.btn{
+    border:none;
+    color: white;
+    background: linear-gradient(36deg, rgba(255,175,0,1) 0%, rgba(237,227,149,1) 50%, rgba(255,175,0,1) 100%);
+}
+.btn:hover{
+    color: goldenrod;
+    background-color: white;
+    background-image: none;
+    border: 1px solid goldenrod;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.m-0-auto{
+    margin: 0 auto;
+}
+.m-10-auto{
+    margin: 10px auto;
+}
+.m-20-auto{
+    margin: 20px auto;
+}
+.m-30-auto{
+    margin: 30px auto;
+}
+.m-40-auto{
+    margin: 40px auto;
+}
+.m-50-auto{
+    margin: 50px auto;
+}
+.m-100-auto{
+    margin: 100px auto;
+}
+.m-150-auto{
+    margin: 150px auto;
+}
+.m-200-auto{
+    margin: 200px auto;
+}
+.p-10-b{
+    padding-bottom: 10px;
+}
+.p-20-b{
+    padding-bottom: 20px;
+}
+.p-30-b{
+    padding-bottom: 30px;
+}
+.p-40-b{
+    padding-bottom: 40px;
+}
+.p-50-b{
+    padding-bottom: 50px;
+}
+.p-100-b{
+    padding-bottom: 100px;
+}
+.p-150-b{
+    padding-bottom: 150px;
+}
+.p-200-b{
+    padding-bottom: 200px;
+}
+.p-10-t{
+    padding-top: 10px;
+}
+.p-20-t{
+    padding-top: 20px;
+}
+.p-30-t{
+    padding-top: 30px;
+}
+.p-40-t{
+    padding-top: 40px;
+}
+.p-50-t{
+    padding-top: 50px;
+}
+.p-100-t{
+    padding-top: 100px;
+}
+.p-150-t{
+    padding-top: 150px;
+}
+.p-200-t{
+    padding-top: 200px;
+}
+
+.navbar{
+    font-size: 21px;
+    width: 90%;
+}
+.navbar-light2 .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link.active {
+    color: black;
+}
+.navbar-light2 .navbar-nav .nav-link:hover{
+    color: goldenrod;
+}
+.navbar-light2 .navbar-nav .nav-link:focus{
+    color: goldenrod;
+}
+.navbar-light2 .navbar-nav .nav-link.active:hover{
+    color: goldenrod;
+}
+.navbar-light .navbar-nav .nav-link,.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: goldenrod;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+    color: goldenrod;
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: goldenrod;
+}
+.header-title{
+    color: white;
+    margin-bottom: 0;
+}
+.header-title h1{
+    font-size: 50px;  
+}
+.nav-item{
+    margin-right: 5px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler2 .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.main-block{
+    -webkit-box-shadow: 0px -52px 46px 25px rgba(0,0,0,0.85);
+-moz-box-shadow: 0px -52px 46px 25px rgba(0,0,0,0.85);
+box-shadow: 0px -172px 46px 25px rgba(0,0,0,0.85);
+}
+.main-block h1{
+    text-align: center;
+    color: white;
+    border: 4px dotted goldenrod;
+    width: 400px;
+    margin:0 auto;
+    border-radius: 50%;
+    border-top: 0;
+}
+.main-cont{
+    margin-top: 50px;
+}
+.bg1{
+    background-color: #e7e7e7;
+}
+.bg2{
+    background-color: #f1f1f1;
+}
+.bg3{
+    background-color: white;
+}
+.disc{
+    padding: 30px;
+    padding-bottom: 0;
+}
+.disc span{
+    background: linear-gradient(36deg, rgba(255,175,0,1) 0%, rgba(237,227,149,1) 50%, rgba(255,175,0,1) 100%);
+    border-radius: 50%;
+    padding: 10px;
+}
+.checked {
+    color: orange;
+}
+.main-cont .card{
+    text-align: center;
+    transition: .3s;
+    margin-top: 50px;
+}
+.main-cont .card-text .ex{
+    color: gray;
+    margin-right: 8px;
+}
+.main-cont .card-text .ex,.current{
+    font-size: 20px;
+}
+.main-cont .card:hover{
+    transform: scale(1.1);
+}
+footer{
+    color: white;
+    border: 2px solid white;
+    border-bottom: none;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+footer ul li:hover{
+    color: goldenrod;
+    transition: .3s;
+}
+footer ul li i{
+    margin-right: 5px;
+    color: white;
+    transition: .3s;
+}
+footer ul li i:hover{
+    color: goldenrod;
+}
+.offer-sec .offer .row{
+    background-color:#f1f1f1;
+    border-radius: 10px;
+
+}
+.offer-sec .offer-pic img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-item p{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.carousel-item img{
+    width: 300px;
+    height: 340px;
+}
+.carousel-indicators li{
+    background-color: black;
+    height: 5px;
+}
+.carousel-indicators .active{
+    background-color: #daa520;
+}
+
+.main-sec .container-fluid{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-sec .card{
+    margin: 30px auto; 
+    transition: .2s;
+}
+.main-sec .card:hover{
+    transform: scale(1.05);
+}
+.main-sec .btn{
+    width: 100%;
+}
+.perfume-title h2{
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+.bg3{
+    background-color: white;
+}
+.bg1{
+    background-color: #e7e7e7;
+}
+.bg4{
+    background-color: #f8f6f7;
+}
+.card-title{
+    text-transform: lowercase;
+}.form label{
+    color: white;
+}
+.form input{
+    background-color: transparent;
+}
+.form-control:focus{
+    background-color: transparent;
+}
+.form-control{
+    background-color: transparent;
+}
+form{
+    background-color:  #231f20;
+}
+.form-group{
+    margin-top: 30px;
+}
+.map iframe{
+    width: 100%;
+}
+form .btn{
+   background-color:#ce9c6b;
+    margin-top: 40px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+form .form-group{
+    width: 100%;
+}
+.mapa{
+    padding: 0;
+}
+.map{
+    height: 100%;
+}
+iframe{
+    height: 100%;
+}
+.contact{
+    font-size: 50px;
+}
